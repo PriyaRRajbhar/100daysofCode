@@ -2,6 +2,7 @@ import React from 'react';
 import Firstpage from './component/Firstpage';
 import Props from './component/Props';
 import State from './component/State';
+import Eventh from './component/Eventh';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <State/>
       </div>
       <br />
+      <div>
+        <Eventh/>
+      </div>
     </>
   );
 }
