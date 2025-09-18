@@ -4,6 +4,7 @@ import Props from './component/Props';
 import State from './component/State';
 import Eventh from './component/Eventh';
 import UserDashboard from './component/Conditonalr';
+import PlayButton from './component/button';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <br />
       <div>
         <UserDashboard/>
+      </div>
+      <br />
+      <div>
+        <PlayButton songTitle="Tum Hi Ho" />    
       </div>
     </>
   );
